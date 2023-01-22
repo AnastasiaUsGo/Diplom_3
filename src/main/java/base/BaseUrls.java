@@ -9,6 +9,7 @@ public class BaseUrls {
     private final String registrationUrl = "https://stellarburgers.nomoreparties.site/register";
     // Домашняя страница
     private final String homeUrl = "https://stellarburgers.nomoreparties.site";
+    //Страница восстановления пароля
     private final String forgotPasswordUrl = "https://stellarburgers.nomoreparties.site/forgot-password";
 
     private final WebDriver driver;
