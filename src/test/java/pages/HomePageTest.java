@@ -18,7 +18,7 @@ public class HomePageTest {
 
     @Before
     public void setUp() {
-        //System.setProperty("webdriver.chrome.driver", "src/main/resources/yandexdriver.exe"); // для яндекса
+        //System.setProperty("webdriver.chrome.driver", "/path/to/webdriver/bin/yandexdriver.exe"); // для яндекса
         System.setProperty("webdriver.chrome.driver", "/path/to/webdriver/bin/chromedriver.exe"); // для хрома
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
