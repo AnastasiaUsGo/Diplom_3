@@ -1,0 +1,7 @@
+base\UserGenerator.class
+pages\LoginPage.class
+base\BaseUrls.class
+pages\HomePage.class
+pages\RegistrationPage.class
+pages\ForgotPasswordPage.class
+pages\ProfilePage.class
